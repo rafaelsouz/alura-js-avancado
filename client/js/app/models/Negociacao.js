@@ -11,7 +11,7 @@ class Negociacao {
     }
 
     get data(){
-        return new Date(this.getTime()); //programação defesiva para evitar alteração da data de um objeto.
+        return new Date(this._data.getTime()); //programação defesiva para evitar alteração da data de um objeto.
     }
 
     get quantidade(){
