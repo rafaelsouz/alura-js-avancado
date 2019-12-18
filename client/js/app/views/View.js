@@ -11,7 +11,7 @@ class View {
     }
 
     update(model){
-
+        
         this.elemento.innerHTML = this.template(model);
     }
 }
