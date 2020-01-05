@@ -19,6 +19,18 @@ class ListaNegociacoes{
 
         this._negociacoes = [];
     }
+    
+    get quantidadeTotal() {
+        return this._negociacoes.reduce((total, n) => total + n.quantidade, 0.0);
+    }
+    
+    get valorTotal() {
+        return this._negociacoes.reduce((total, n) => total + n.valor, 0.0);
+    }
+    
+    get volumeTotal() {
+        return this._negociacoes.reduce((total, n) => total + n.volume, 0.0);
+    }
 
     ordena(criterio) {
         this._negociacoes.sort(criterio);
