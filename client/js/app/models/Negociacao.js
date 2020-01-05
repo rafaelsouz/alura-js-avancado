@@ -1,4 +1,5 @@
 class Negociacao {
+    
     constructor(data, quantidade, valor){
         this._data = new Date(data.getTime()); //programação defesiva para evitar alteração da data de um objeto.
         this._quantidade = quantidade;
@@ -24,5 +25,9 @@ class Negociacao {
     get valor(){
         
         return this._valor
+    }
+
+    isEquals(outraNegociacao) {
+        return JSON.stringify(this) == JSON.stringify(outraNegociacao)
     }
 }
