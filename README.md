@@ -9,7 +9,7 @@ Projeto de estudo - AluraFrame
 <br/>
 Projeto desenvolvido durante os cursos da <a href=“https://www.alura.com.br/cursos-online-front-end/javascript“>Alura</a> de JavaScript Avançado ES6 (I, II, III).
 
-Durante o curso utilizamos diversos conceitos de programação: Padrão MVC, progamação defensiva, spread operator, arrow functions, template strings, templates dinâmicos, heranças, binding, API reflection, proxy, indexedDB, fetch API etc.
+Durante os cursos utilizamos diversos conceitos de programação: Padrão MVC, progamação defensiva, spread operator, arrow functions, template strings, templates dinâmicos, heranças, binding, API reflection, proxy, indexedDB, fetch API etc.
 
 ### Rodar Backend/API
 
